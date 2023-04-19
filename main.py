@@ -1,5 +1,5 @@
 import phonenumbers
-phonenumber = "+263774780783"
+phonenumber = input("Enter Phone Number with country code, eg. +263712345678 :")
 
 from phonenumbers import geocoder
 country = phonenumbers.parse(phonenumber, "CH")
