@@ -9,3 +9,5 @@ print("Country :", geocoder.description_for_number(country,"en"))
 from phonenumbers import carrier
 service_provider = phonenumbers.parse(phonenumber, "RO")
 print("Service Provider :", carrier.name_for_number(service_provider, "en"))
+
+#add a tkinder gui
